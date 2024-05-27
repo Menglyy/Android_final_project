@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main5"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity5">
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#00AF87" />
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="64dp"
+        android:layout_height="53dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="176dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="176dp"
+        android:layout_marginBottom="150dp"
+        app:srcCompat="@drawable/logo" />
+
+    <ImageView
+        android:id="@+id/check"
+        android:layout_width="70dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="170dp"
+        android:layout_marginTop="240dp"
+        android:layout_marginEnd="170dp"
+        android:src="@drawable/check"
+        app:tint="#1CC538" />
+
+    <TextView
+        android:id="@+id/verified"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/check"
+        android:text="Verified !"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/verified_congrats"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/verified"
+        android:text="Your account has been"
+        android:textAlignment="center"
+        android:textColor="#686767" />
+
+    <TextView
+        android:id="@+id/verified_congrats1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="created successfully"
+        android:textColor="#686767"
+        android:layout_below="@+id/verified_congrats"
+        android:textAlignment="center"/>
+
+    <Button
+        android:id="@+id/goHome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/verified_congrats1"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="5dp"
+        android:backgroundTint="#00AF87"
+        android:fontFamily="monospace"
+        android:text="Go to Home Page" />
+
+</RelativeLayout>

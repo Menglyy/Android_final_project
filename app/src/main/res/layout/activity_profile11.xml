@@ -25,7 +25,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="155dp"
             android:layout_marginTop="25dp"
-            android:text="Create Post"
+            android:text="Manage Account"
             android:textAlignment="center"
             android:textColor="#000000"
             android:textSize="20sp" />
